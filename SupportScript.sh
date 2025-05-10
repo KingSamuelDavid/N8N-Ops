@@ -1,7 +1,13 @@
 #!/bin/bash
 
-# n8n Support Collector v2.9
+# n8n Support Collector
 # Full diagnostics for all n8n containers, including redaction, merged reports, and OOM checks
+
+# **DISCLAIMER:**  
+# This is an unofficial diagnostic script created by the community.  
+# It is **not developed or maintained by the n8n team**.  
+# Use at your own risk. Always review the output before sharing externally to ensure no sensitive information is exposed.
+
 
 TIME_IN_PAST=86400
 OUTPUT_DIR="n8n_support_$(date +%F_%H%M%S)"
